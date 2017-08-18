@@ -63,18 +63,37 @@ npm-debug.log
 
 
 #LARAVEL
-vendor/
-node_modules/
+/vendor
+/node_modules
+/bower_components
+/public/storage
+/public/upload
+/public/build
+Homestead.yaml
+Homestead.json
+.env
+/.config
+/.npm
+/.cache
+/logs
+/error_docs
+.v8flags*
+npm-debug.log
+.bash_history
+/resources/lang
+/build
 
 # Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+#bootstrap/compiled.php
+#app/storage/
 
 # Laravel 5 & Lumen specific
 /bootstrap/compiled.php
-bootstrap/cache/
-storage/
-#.env file enviroment config value for laravel etc�
+#bootstrap/cache/
+/public/storage
+/public/hot
+/storage/*.key
+#.env file enviroment config value for laravel etc…
 .env.*.php
 .env.php
 .env
@@ -84,6 +103,9 @@ _ide_helper.php
 #homestead
 Homestead.yaml
 Homestead.json
+/.vagrant
+npm-debug.log
+yarn-error.log
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
