@@ -89,7 +89,6 @@ npm-debug.log
 
 # Laravel 5 & Lumen specific
 /bootstrap/compiled.php
-#bootstrap/cache/
 /public/storage
 /public/hot
 /storage/*.key
