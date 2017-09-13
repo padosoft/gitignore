@@ -80,7 +80,6 @@ Homestead.json
 .v8flags*
 npm-debug.log
 .bash_history
-/resources/lang
 /build
 
 # Laravel 4 specific
