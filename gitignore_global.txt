@@ -1,4 +1,31 @@
-﻿# Refs:
+##########################################
+# summary .gitignore for laravel project #
+##########################################
+/vendor
+/node_modules
+/bower_components
+/public/storage
+/public/upload
+/public/build
+Homestead.yaml
+Homestead.json
+.env
+/.config
+/.npm
+/.cache
+/logs
+/error_docs
+.v8flags*
+npm-debug.log
+.bash_history
+/resources/lang
+/build
+
+
+#######################################
+# Global common .gitignore            #
+#######################################
+# Refs:
 # https://gist.github.com/octocat/9257657
 # https://github.com/github/gitignore 
 # https://www.gitignore.io/ 
@@ -38,6 +65,18 @@ $RECYCLE.BIN/
 *.iml
 #ignore phpstorm object files
 .idea
+.idea/
+.idea/*.*
+ .idea/blade.xml
+.idea/copyright/profiles_settings.xml
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
 #or to share configurations and settings between collaborators ignore only these 2 dir below:
 #/.idea/workspace.xml
 #/.idea/tasks.xml
@@ -63,24 +102,7 @@ npm-debug.log
 
 
 #LARAVEL
-/vendor
-/node_modules
-/bower_components
-/public/storage
-/public/upload
-/public/build
-Homestead.yaml
-Homestead.json
-.env
-/.config
-/.npm
-/.cache
-/logs
-/error_docs
-.v8flags*
-npm-debug.log
-.bash_history
-/build
+
 
 # Laravel 4 specific
 #bootstrap/compiled.php
@@ -88,10 +110,11 @@ npm-debug.log
 
 # Laravel 5 & Lumen specific
 /bootstrap/compiled.php
+#bootstrap/cache/
 /public/storage
 /public/hot
 /storage/*.key
-#.env file enviroment config value for laravel etc…
+#.env file enviroment config value for laravel etc�
 .env.*.php
 .env.php
 .env
@@ -393,7 +416,6 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-deployment-config.json
 
 #Visual Studio Code to support workspace files
 #https://github.com/github/gitignore/pull/2057
