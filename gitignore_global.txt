@@ -442,3 +442,6 @@ dw_php_codehinting.config
 
 #samba credential
 *.smbcredentials
+
+#miscellaneous
+.well-known/
