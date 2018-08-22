@@ -127,6 +127,7 @@ Homestead.json
 /.vagrant
 npm-debug.log
 yarn-error.log
+.phpunit.result.cache
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
